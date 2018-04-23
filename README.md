@@ -6,6 +6,7 @@ A brief comparison between different modes of tracking on dataset1.
 [//]: # (Image References)
 [image1]: ./Dataset1.JPG
 [image2]: ./Dataset2.JPG
+
 ---
 
 ### RMSE lidar only
@@ -46,6 +47,7 @@ A brief comparison between different modes of tracking on dataset1.
 ```
 It can be observed, that the covariance matrix of the fusion approach has smaller values, that means the filter is more certain of the state of the tracked vehicle.
 The covariance matrix of the lidar only example holds several zeros, because the linear updates only result in a corellation of spped and position along one axis. The radar measurement equation is more involved, hence there are more connections between the states.
+
 ---
 
 ### Examples
