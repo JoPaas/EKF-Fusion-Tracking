@@ -53,3 +53,5 @@ The covariance matrix of the lidar only example holds several zeros, because the
 ### Examples
 ![alt_text][image1]
 ![alt_text][image2]
+
+Note: The measured range of the radar had to be limited to a small value to help with unwanted behaviour, also a way had to be found to deal with jumps in the angular values.
